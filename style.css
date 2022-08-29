@@ -1,0 +1,269 @@
+
+
+@font-face {
+    font-family: poppins;
+    src: url(Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: opp;
+    src: url(Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: oppp;
+    src: url(Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: jose;
+    src: url(Kabrio-Soft-Bold-trial.ttf);
+}
+
+
+
+.bgg {
+    height: 700px;
+	background-image: url(bgaot.png);
+	background-size: cover;
+    position: relative;
+    width: 100%;
+}
+
+
+.nav {
+    background-color: #000B49;
+    width: 100%;
+    height: 35px;
+    opacity: 78%;
+}
+
+.nav img {
+    width: 92px;
+    height: 86px;
+    overflow: hidden;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-family: opp;
+    font-size: 12px;
+    padding-left: 100px;
+    letter-spacing: 0.3px;
+    position: relative;
+    left: 300px;
+    top: 8px;
+}
+
+.nav a:hover {
+    color: #fcff4b;
+}
+
+.disc  {
+    background-color: transparent;
+    width: 540px;
+    
+}
+
+.disc h1 {
+    font-family: jose;
+    color: white;
+    font-size: 50px;
+    letter-spacing: 0.5px;
+    line-height: 1.1;
+    font-weight: -1;
+    position: relative;
+    left: 48px;
+    top: 80px;
+}
+
+.joj h2 {
+    color: white;
+    position: relative;
+    top: 80px;
+    left: 48px;
+    font-family: opp;
+    line-height: 1.2;
+    letter-spacing: 2px;
+    font-size: 23px;
+    background-color: transparent;
+    width: 260px;
+}
+
+.tv h3 {
+    color: rgb(183, 212, 16);
+    font-size: 14px;
+    position: relative;
+    top: 38px;
+    left: 268px;
+    font-family: oppp;
+    letter-spacing: 0.5px;
+    opacity: 89%;
+    background-color: transparent;
+    width: 260px;
+}
+
+.sinops p {
+    color: white;
+    position: relative;
+    left: 48px;
+    font-size: 11px;
+    top: 38px;
+    font-family: poppins;
+    letter-spacing: 0.3px;
+    background-color: transparent;
+    width: 600px;
+}
+
+.genre {
+    display: flex;
+    position: relative;
+    top: 45px;
+}
+
+.mil a {
+    text-decoration: none;
+    color: rgb(204, 248, 8);
+    font-family: poppins;
+    font-size: 11px;
+    letter-spacing: 0.7px;
+    position: relative;
+    left: 105px;
+    border: solid rgb(200, 243, 10) 1px;
+    border-radius: 9px;
+    padding: 1px 6px 1px 6px;
+}
+
+.mil a:hover {
+    border-color: rgb(211, 241, 77);
+    color: rgb(232, 255, 138);
+}
+
+.fan a {
+    text-decoration: none;
+    color: rgb(204, 248, 8);
+    font-family: poppins;
+    font-size: 11px;
+    letter-spacing: 0.7px;
+    position: relative;
+    left: 85px;
+    border: solid rgb(200, 243, 10) 1px;
+    border-radius: 9px;
+    padding: 1px 6px 1px 6px;
+}
+
+.dra a {
+    text-decoration: none;
+    color: rgb(204, 248, 8);
+    font-family: poppins;
+    font-size: 11px;
+    letter-spacing: 0.7px;
+    position: relative;
+    left: 65px;
+    border: solid rgb(200, 243, 10) 1px;
+    border-radius: 9px;
+    padding: 1px 6px 1px 6px;
+}
+
+.act a {
+    text-decoration: none;
+    color: rgb(204, 248, 8);
+    font-family: poppins;
+    font-size: 11px;
+    letter-spacing: 0.7px;
+    position: relative;
+    left: 45px;
+    border: solid rgb(200, 243, 10) 1px;
+    border-radius: 9px;
+    padding: 1px 6px 1px 6px;
+}
+
+.genre2 {
+    display: flex;
+    position: relative;
+    top: 60px;
+}
+
+.sup a {
+    text-decoration: none;
+    color: rgb(204, 248, 8);
+    font-family: poppins;
+    font-size: 11px;
+    letter-spacing: 0.7px;
+    position: relative;
+    left: 85px;
+    border: solid rgb(200, 243, 10) 1px;
+    border-radius: 9px;
+    padding: 1px 6px 1px 6px;
+}
+
+.sho a {
+    text-decoration: none;
+    color: rgb(204, 248, 8);
+    font-family: poppins;
+    font-size: 11px;
+    letter-spacing: 0.7px;
+    position: relative;
+    left: 65px;
+    border: solid rgb(200, 243, 10) 1px;
+    border-radius: 9px;
+    padding: 1px 6px 1px 6px;
+}
+
+.mys a {
+    text-decoration: none;
+    color: rgb(204, 248, 8);
+    font-family: poppins;
+    font-size: 11px;
+    letter-spacing: 0.7px;
+    position: relative;
+    left: 45px;
+    border: solid rgb(200, 243, 10) 1px;
+    border-radius: 9px;
+    padding: 1px 6px 1px 6px;
+}
+
+.btn a {
+    position: relative;
+    top: 90px;
+    color: white;
+    text-decoration: none;
+    font-family: poppins;
+    text-align: center;
+    border: solid rgb(255, 255, 255) 1px;
+    border-radius: 9px;
+    padding: 3px 15px;
+    left: 50px;
+}
+
+.char {
+    background-image:linear-gradient(rgba(1, 1, 48, 0.6), rgba(2, 2, 54, 0.6)), url(reiner.png);
+    width: 100%;
+    background-size: cover;
+    height: 690px;
+    position: relative;
+    top: -29px;
+}
+
+.title h1 {
+    color: white;
+    font-family: jose;
+    text-align: center;
+    letter-spacing: 0.5px;
+    position: relative;
+    top: 70px;
+    font-size: 43px;
+}
+
+.shi h2 {
+    color: white;
+    font-family: jose;
+    text-align: center;
+    letter-spacing: 0.5px;
+    position: relative;
+    top: 40px;
+    font-size: 34px;
+}
+
+
